@@ -1,0 +1,4 @@
+/* 추가적인 전체 스타일 (필요시) */
+textarea {
+    resize: none;
+}
