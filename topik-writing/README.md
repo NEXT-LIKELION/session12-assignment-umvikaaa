@@ -1,12 +1,22 @@
-# React + Vite
+# TOPIK Writing Practice Chatbot 🐯
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 프로젝트는 한국어 TOPIK 쓰기 시험을 준비하는 러시아어권 학습자들을 위해 제작되었습니다.  
+사용자는 주제를 선택하고 글을 작성한 후, AI가 문법 오류를 교정하고 수정 이유를 러시아어로 자세히 설명해 줍니다.
 
-Currently, two official plugins are available:
+## 주요 기능
+- 🟢 주제 선택 기능 (취미, 가족, 여행 등)
+- 📝 선택된 주제 및 관련 키워드 제공
+- 🧹 작성한 글 문법 검사 및 수정
+- 🐯 수정된 문장과 러시아어로 된 수정 이유 출력
+- 🔄 초기화 버튼을 통한 빠른 리셋
+- 🌿 부드러운 초록색 테마와 귀여운 호랑이 캐릭터ㅎㅎ
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 기술 스택
+- React (Vite)
+- TailwindCSS (3.4.3 버전 활용)
+- OpenAI API (GPT-3.5 Turbo)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 한계 
+- GPT가 3.5 버전이라 오류 수정이 퀄리티가 좋지 않음
+- UIUX상 그렇게 편해보이진 않음
+- TOPIK 글쓰기는 사실 훨씬 더 난이도가 어렵고, 복잡함. TOPIK을 대비하기 위해서라고는 했지만 사실 그냥 글쓰기만 봐주는 느낌임. 고려해야할 게 너무 많음. 
